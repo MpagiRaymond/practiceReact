@@ -61,7 +61,7 @@ function App() {
           )
         })}
         <Button  text={'='} onClick={equals}/>
-        <Button text={'C'} onClick={clear}/>
+        <Button text={'C'} customStyle={{color: 'red'}} onClick={clear}/>
       </div>
      </div>
     </>
